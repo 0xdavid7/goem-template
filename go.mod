@@ -1,8 +1,7 @@
 module github.com/tranhuyducseven/goem-template
 
 go 1.22
-
-toolchain go1.22.2
+toolchain go1.22.5
 
 require (
 	github.com/go-playground/validator/v10 v10.20.0
@@ -10,16 +9,17 @@ require (
 	github.com/labstack/echo/v4 v4.12.0
 	github.com/rs/zerolog v1.32.0
 	go.mongodb.org/mongo-driver v1.15.0
-	go.opentelemetry.io/otel v1.30.0
+	go.opentelemetry.io/otel v1.34.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.30.0
 	go.opentelemetry.io/otel/sdk v1.30.0
-	go.opentelemetry.io/otel/trace v1.30.0
+	go.opentelemetry.io/otel/trace v1.34.0
 )
 
 require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
+	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 )
 
 require (
@@ -46,7 +46,7 @@ require (
 	github.com/xdg-go/stringprep v1.0.4 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20240424034433-3c2c7870ae76 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.30.0 // indirect
-	go.opentelemetry.io/otel/metric v1.30.0 // indirect
+	go.opentelemetry.io/otel/metric v1.34.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
 	golang.org/x/crypto v0.27.0 // indirect
 	golang.org/x/net v0.29.0 // indirect
